@@ -1,0 +1,5 @@
+<Root>
+    <icons posicionx="1" posiciony="1" text="hello">./icons/calculator.png</icons>
+    <icons posicionx="2" posiciony="2" text="hello">./icons/calculator.png</icons>
+    <icons posicionx="3" posiciony="3" text="hello">./icons/calculator.png</icons>
+</Root>
