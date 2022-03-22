@@ -3,8 +3,8 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "icons.h"
-#include "parser.h"
+#include "GUIICONS.h"
+#include "GUIXML.h"
 
 Tigr *backdrop, *screen;
 

@@ -1,5 +1,5 @@
 #include "tigr/tigr.h"
-#include "icons.h"
+#include "GUIICONS.h"
 
 int printIcon(Tigr *screen, char image[], char text[], int x, int y){
     Tigr *icono = tigrLoadImage(image);

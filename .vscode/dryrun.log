@@ -1,0 +1,17 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/paula/OneDrive/Escritorio/plataformes/aula'
+ 
+gcc -c tigr/tigr.c 
+ 
+gcc -c VISORGUI.c 
+ 
+gcc -c GUIICONS.c 
+ 
+gcc -c GUIXML.c
+ 
+gcc -c xml.c/src/xml.c
+ 
+gcc -o VISORGUI VISORGUI.o tigr.o GUIICONS.o GUIXML.o xml.o -I../.. -s -lopengl32 -lgdi32
+ 
+make.exe: Leaving directory 'c:/Users/paula/OneDrive/Escritorio/plataformes/aula'
+ 
